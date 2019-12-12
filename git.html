@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        * {
+            letter-spacing: 1px;
+        }
+
+        .container {
+            width: 800px;
+            margin: 0 auto;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .assignments {
+            background-color: rgba(125, 125, 125, 0.2);
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 20px;
+            margin: 25px 0;
+        }
+
+        .assignment-block {
+            margin-bottom: 25px;
+            border-bottom: 1px solid rgba(125, 125, 125, 0.6);
+        }
+
+        .assignment-title {
+            font-weight: bold;
+            border-bottom: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="intro">
+            <div class="header">
+                <h1>Git opdrachten</h1>
+                <img src="./img/techgrounds.svg" alt="techgrounds-placeholder" style="width:200px;">
+            </div>
+            <p>Voor het maken van de Git opdrachten heb je een account nodig op github. Maak eerst een github account
+                aan.</p>
+
+            <p>Voordat je begint met de opdrachten:</p>
+            <ol>
+                <li>Lees je in wat Git doet voordat je met de opdrachten begint.</li>
+                <li>Lees je in wat Github kan.</li>
+            </ol>
+
+            <p>De volgende commando's worden toegepast:</p>
+            <ul>
+                <li>git clone</li>
+                <li>git status</li>
+                <li>git pull</li>
+                <li>git push</li>
+                <li>git commit</li>
+                <li>git log</li>
+                <li>git add</li>
+                <li>git checkout</li>
+            </ul>
+        </div>
+
+        <div class="assignments">
+            <div class="assignment-block">
+                <p><span class="assignment-title">Opdracht 1:</span> Maak een repository in github en <u>clone</u> deze
+                    repository naar jouw computer.</p>
+                <ol type="a">
+                    <li>Een repository maak je in github aan.</li>
+                    <li>Lees je in hoe <u><b>git clone</b></u> werkt.</li>
+                </ol>
+            </div>
+
+            <div class="assignment-block">
+                <p><span class="assignment-title">Opdracht 2:</span> Voer de <b><u>git branch</u></b> commando uit om te
+                    kunnen zien welke branches er in deze repository zijn. Het ziet als volgt uit:</p>
+                <img src="./img/git_branch.png" alt="git_branch">
+            </div>
+
+            <div class="assignment-block">
+                <p><span class="assignment-title">Opdracht 3:</span> Maak een branch aan op deze repository</p>
+                <ol type="a">
+                    <li>Lees je in wat <u><b>git branch</b></u> kan doen.</li>
+                    <li>Een branch maak je aan met een parameter die je kan mee geven aan de <u><b>git branch</b></u>
+                        commando.</li>
+                </ol>
+            </div>
+
+            <div class="assignment-block">
+                <p><span class="assignment-title">Opdracht 4:</span> Gebruik de commando om te zien dat jouw branch is
+                    aangemaakt.</p>
+            </div>
+
+            <div class="assignment-block">
+                <p><span class="assignment-title">Opdracht 5:</span> Nu gaan we de aangemaakte branch uitchecken. Dat
+                    doe je met de <u><b>git checkout</b></u> commando.</p>
+                <ol type="a">
+                    <li>Lees je in wat <u><b>git checkout</b></u> kan doen.</li>
+                    <li>Een branch kan je uitchecken door een parameter mee te geven aan de <u><b>git checkout</b></u>
+                        commando.</li>
+                </ol>
+            </div>
+
+            <div class="assignment-block">
+                <p><span class="assignment-title">Opdracht 6:</span> Maak een bestand aan en voeg wat teksten toe.</p>
+            </div>
+
+            <div class="assignment-block">
+                <p><span class="assignment-title">Opdracht 7:</span> Voer de <u><b>git status</b></u> commando uit. Je
+                    ziet dat het bestand die je hebt aangemaakt <span style="color: red;">rood</span> is. dit geeft aan
+                    dat het nog niet toegevoegd is om je bestand te committen naar jouw local repository.</p>
+                <ol type="a">
+                    <li>Lees je in wat <u><b>git status</b></u> kan doen.</li>
+                </ol>
+            </div>
+
+            <div class="assignment-block">
+                <p><span class="assignment-title">Opdracht 8:</span> Voer de <u><b>git add</b></u> commando uit. Je ziet
+                    het volgende:</p>
+                <img src="./img/git_add.png" alt="git_add">
+                <p>Het geeft aan dat er niks is aangegeven om toe te voegen. Voer nu de <u><b>git add .</b></u> commando
+                    uit. Nu zul je zien dat het bestand die je hebt aangemaakt <span style="color: green">groen</span>
+                    is.</p>
+                <ol type="a">
+                    <li>Lees je in wat <u><b>git add</b></u> kan doen.</li>
+                </ol>
+            </div>
+
+            <div class="assignment-block">
+                <p><span class="assignment-title">Opdracht 9:</span> Voer de <u><b>git commit -m "bericht die je wilt
+                            invoeren"</b></u> commando uit. Je ziet het volgende:</p>
+                <img src="./img/git_commit.png" alt="git_commit">
+
+                <ol type="a">
+                    <li>Lees je in wat <u><b>git commit</b></u> kan doen.</li>
+                </ol>
+            </div>
+
+            <div class="assignment-block">
+                <p><span class="assignment-title">Opdracht 10:</span> Voer de <u><b>git push</b></u> commando uit.</p>
+                <ol type="a">
+                    <li>Lees je in wat <u><b>git push</b></u> kan doen.</li>
+                </ol>
+            </div>
+
+            <div class="assignment-block">
+                <p><span class="assignment-title">Opdracht 11:</span> Voer de <u><b>git log</b></u> commando uit.</p>
+                <ol type="a">
+                    <li>Lees je in wat <u><b>git log</b></u> kan doen.</li>
+                </ol>
+            </div>
+
+            <div class="assignment-block">
+                <p><span class="assignment-title">Opdracht 12:</span> Na de <u><b>git push</b></u> zul je de branch
+                    terug vinden in github.</p>
+            </div>
+
+            <div class="assignment-block">
+                <h2>Eind opdracht</h2>
+                <ol>
+                    <li>Maak een branch aan die heet 'eindopdracht'.</li>
+                    <li>
+                        Maak een text bestand aan en vertel in eigen woorden wat de commando's doen:
+                        <ul>
+                            <li>Wat doet git clone?</li>
+                            <li>Wat doet git status?</li>
+                            <li>Wat doet git branch?</li>
+                            <li>Wat doet git add?</li>
+                            <li>Wat doet git commit?</li>
+                            <li>Wat doet git push?</li>
+                            <li>Wat doet git checkout?</li>
+                            <li>Wat doet git log?</li>
+                        </ul>
+                    </li>
+                    <li>Push de branch naar github.</li>
+                    <li>Zoek uit wat een pull request is en hoe je een pull request kan aanmaken in github.</li>
+                    <li>Voeg in je pull request je docent toe: chengkstech.</li>
+                    <li>Geef aan bij je docent dat je klaar bent. Je docent zal het nakijken.</li>
+                </ol>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
